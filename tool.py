@@ -10,4 +10,3 @@ masg = input(" masg  :")
 
 req = requests.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text={masg}')
 
-==========================
